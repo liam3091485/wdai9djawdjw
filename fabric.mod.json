@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "larpclient",
+  "version": "${version}",
+  "name": "LARP Client - No credits for the cracker, fuck you",
+  "description": "No credits for the cracker, fuck you",
+  "authors": [
+    "No credits for the cracker, fuck you"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/larpclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.larpclient.LarpClient"
+    ]
+  },
+  "mixins": [
+    "larpclient.mixins.json"
+  ],
+  "accessWidener": "larpclient.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3-natives-linux-arm64.jar"
+    },
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3-natives-linux.jar"
+    },
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3-natives-macos-arm64.jar"
+    },
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3-natives-macos.jar"
+    },
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3-natives-windows-arm64.jar"
+    },
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3-natives-windows.jar"
+    },
+    {
+      "file": "META-INF/jars/lwjgl-nanovg-3.3.3.jar"
+    }
+  ],
+  "contact": {
+    "discord": "No credits for the cracker, fuck you"
+  }
+}

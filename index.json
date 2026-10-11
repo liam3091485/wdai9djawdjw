@@ -1,0 +1,6 @@
+{
+  "classes": [
+    "com.larpclient.secured.AimAssistLogic",
+    "com.larpclient.secured.SecuredFeature"
+  ]
+}
